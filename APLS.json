@@ -1,0 +1,622 @@
+{
+    "__type__": "Deck", 
+    "children": [], 
+    "crowdanki_uuid": "e0b0a473-3fb9-11e7-a0d2-0025bcdd42f8", 
+    "deck_config_uuid": "e0b36f42-3fb9-11e7-b50e-0025bcdd42f8", 
+    "deck_configurations": [
+        {
+            "__type__": "DeckConfig", 
+            "autoplay": true, 
+            "crowdanki_uuid": "e0b36f42-3fb9-11e7-b50e-0025bcdd42f8", 
+            "dyn": false, 
+            "lapse": {
+                "delays": [
+                    10
+                ], 
+                "leechAction": 0, 
+                "leechFails": 8, 
+                "minInt": 1, 
+                "mult": 0.0
+            }, 
+            "maxTaken": 60, 
+            "name": "Default", 
+            "new": {
+                "bury": true, 
+                "delays": [
+                    1, 
+                    10
+                ], 
+                "initialFactor": 2500, 
+                "ints": [
+                    1, 
+                    4, 
+                    7
+                ], 
+                "order": 1, 
+                "perDay": 20, 
+                "separate": true
+            }, 
+            "replayq": true, 
+            "rev": {
+                "bury": true, 
+                "ease4": 1.3, 
+                "fuzz": 0.05, 
+                "ivlFct": 1.0, 
+                "maxIvl": 36500, 
+                "minSpace": 1, 
+                "perDay": 100
+            }, 
+            "timer": 0
+        }
+    ], 
+    "desc": "", 
+    "dyn": 0, 
+    "extendNew": 10, 
+    "extendRev": 50, 
+    "media_files": [
+        "paste-21427591840082.jpg", 
+        "paste-18287970746908.jpg", 
+        "paste-4097398800578.jpg", 
+        "paste-20736102105632.jpg", 
+        "paste-15444702396933.jpg", 
+        "paste-21414706938152.jpg", 
+        "paste-4363686772933.jpg", 
+        "paste-21496311316638.jpg", 
+        "paste-3191160701111.jpg", 
+        "paste-20336670146860.jpg", 
+        "paste-644245094875.jpg", 
+        "paste-1284195221881.jpg", 
+        "paste-4196183048312.jpg", 
+        "paste-8486855377400.jpg", 
+        "paste-3942779977979.jpg", 
+        "paste-2907692859693.jpg", 
+        "paste-20757576941741.jpg", 
+        "paste-19585050870152.jpg", 
+        "paste-4209067950132.jpg", 
+        "paste-3637837299826.jpg"
+    ], 
+    "mid": 1351239423636, 
+    "name": "APLS", 
+    "note_models": [
+        {
+            "__type__": "NoteModel", 
+            "crowdanki_uuid": "e0b59e14-3fb9-11e7-9bfd-0025bcdd42f8", 
+            "css": ".card {\n font-family: arial;\n font-size: 20px;\n text-align: center;\n color: black;\n background-color: white;\n}\n\n.card1 { background-color: #ffffff;text-align: left }", 
+            "flds": [
+                {
+                    "font": "Arial", 
+                    "media": [], 
+                    "name": "Front", 
+                    "ord": 0, 
+                    "rtl": false, 
+                    "size": 12, 
+                    "sticky": false
+                }, 
+                {
+                    "font": "Arial", 
+                    "media": [], 
+                    "name": "Back", 
+                    "ord": 1, 
+                    "rtl": false, 
+                    "size": 12, 
+                    "sticky": false
+                }, 
+                {
+                    "font": "Arial", 
+                    "media": [], 
+                    "name": "Source", 
+                    "ord": 2, 
+                    "rtl": false, 
+                    "size": 12, 
+                    "sticky": false
+                }
+            ], 
+            "latexPost": "\\end{document}", 
+            "latexPre": "\\documentclass[12pt]{article}\n\\special{papersize=3in,5in}\n\\usepackage{amssymb,amsmath}\n\\pagestyle{empty}\n\\setlength{\\parindent}{0in}\n\\begin{document}\n", 
+            "name": "FBSource (ICCH)", 
+            "req": [
+                [
+                    0, 
+                    "all", 
+                    [
+                        0
+                    ]
+                ]
+            ], 
+            "sortf": 0, 
+            "tags": [], 
+            "tmpls": [
+                {
+                    "afmt": "{{FrontSide}}\n\n<hr id=answer>\n\n{{Back}}<br>\n<br>\nSource: {{Source}}<br>\n", 
+                    "bafmt": "", 
+                    "bqfmt": "", 
+                    "did": null, 
+                    "name": "Forward", 
+                    "ord": 0, 
+                    "qfmt": "{{Front}}"
+                }
+            ], 
+            "type": 0, 
+            "vers": []
+        }, 
+        {
+            "__type__": "NoteModel", 
+            "crowdanki_uuid": "e0b5aad1-3fb9-11e7-a6a2-0025bcdd42f8", 
+            "css": ".card {\n font-family: arial;\n font-size: 20px;\n text-align: center;\n color: black;\n background-color: white;\n}\n", 
+            "flds": [
+                {
+                    "font": "Arial", 
+                    "media": [], 
+                    "name": "Front", 
+                    "ord": 0, 
+                    "rtl": false, 
+                    "size": 20, 
+                    "sticky": false
+                }, 
+                {
+                    "font": "Arial", 
+                    "media": [], 
+                    "name": "Back", 
+                    "ord": 1, 
+                    "rtl": false, 
+                    "size": 20, 
+                    "sticky": false
+                }
+            ], 
+            "latexPost": "\\end{document}", 
+            "latexPre": "\\documentclass[12pt]{article}\n\\special{papersize=3in,5in}\n\\usepackage[utf8]{inputenc}\n\\usepackage{amssymb,amsmath}\n\\pagestyle{empty}\n\\setlength{\\parindent}{0in}\n\\begin{document}\n", 
+            "name": "Basic", 
+            "req": [
+                [
+                    0, 
+                    "all", 
+                    [
+                        0
+                    ]
+                ]
+            ], 
+            "sortf": 0, 
+            "tags": [], 
+            "tmpls": [
+                {
+                    "afmt": "{{FrontSide}}\n\n<hr id=answer>\n\n{{Back}}", 
+                    "bafmt": "", 
+                    "bqfmt": "", 
+                    "did": null, 
+                    "name": "Card 1", 
+                    "ord": 0, 
+                    "qfmt": "{{Front}}"
+                }
+            ], 
+            "type": 0, 
+            "vers": []
+        }
+    ], 
+    "notes": [
+        {
+            "__type__": "Note", 
+            "data": "", 
+            "fields": [
+                "What is the shock and drug administration protocol for shockable cardiac arrest in paeds?", 
+                "<img src=\"paste-644245094875.jpg\" />", 
+                "http://www.doh.edmore.com.au/resus4kids28/"
+            ], 
+            "flags": 0, 
+            "guid": "p<Tv@-J1w!", 
+            "note_model_uuid": "e0b59e14-3fb9-11e7-9bfd-0025bcdd42f8", 
+            "tags": [
+                "paeds", 
+                "resuscitation"
+            ]
+        }, 
+        {
+            "__type__": "Note", 
+            "data": "", 
+            "fields": [
+                "What is the shock and drug administration protocol for non-shockable cardiac arrest in paeds?", 
+                "<img src=\"paste-1284195221881.jpg\" />", 
+                "http://www.doh.edmore.com.au/resus4kids28/"
+            ], 
+            "flags": 0, 
+            "guid": "Hk{RC*%MS*", 
+            "note_model_uuid": "e0b59e14-3fb9-11e7-9bfd-0025bcdd42f8", 
+            "tags": [
+                "paeds", 
+                "resuscitation"
+            ]
+        }, 
+        {
+            "__type__": "Note", 
+            "data": "", 
+            "fields": [
+                "What are the pathways to cardiac arrest in children?", 
+                "<img src=\"paste-2907692859693.jpg\" />"
+            ], 
+            "flags": 0, 
+            "guid": "GX>%XreFu@", 
+            "note_model_uuid": "e0b5aad1-3fb9-11e7-a6a2-0025bcdd42f8", 
+            "tags": [
+                "paeds"
+            ]
+        }, 
+        {
+            "__type__": "Note", 
+            "data": "", 
+            "fields": [
+                "what important differences in airway anatomy in infants?", 
+                "<img src=\"paste-3191160701111.jpg\" /><div><br /></div><div><img src=\"paste-3637837299826.jpg\" /></div>"
+            ], 
+            "flags": 0, 
+            "guid": "v(,k9Of79P", 
+            "note_model_uuid": "e0b5aad1-3fb9-11e7-a6a2-0025bcdd42f8", 
+            "tags": [
+                "paeds"
+            ]
+        }, 
+        {
+            "__type__": "Note", 
+            "data": "", 
+            "fields": [
+                "what important differences in breathing in infants?", 
+                "<img src=\"paste-3942779977979.jpg\" />"
+            ], 
+            "flags": 0, 
+            "guid": "qN$pDydTzB", 
+            "note_model_uuid": "e0b5aad1-3fb9-11e7-a6a2-0025bcdd42f8", 
+            "tags": [
+                "paeds"
+            ]
+        }, 
+        {
+            "__type__": "Note", 
+            "data": "", 
+            "fields": [
+                "how do you estimate BP in children? how variable is SV in infants? what consequence of this?<div><br /></div>", 
+                "<div><img src=\"paste-4209067950132.jpg\" /></div><div><br /></div><img src=\"paste-4097398800578.jpg\" /><div><br /></div><div><img src=\"paste-4196183048312.jpg\" /></div><div><br /></div>"
+            ], 
+            "flags": 0, 
+            "guid": "KI}CgG[5+I", 
+            "note_model_uuid": "e0b5aad1-3fb9-11e7-a6a2-0025bcdd42f8", 
+            "tags": [
+                "paeds"
+            ]
+        }, 
+        {
+            "__type__": "Note", 
+            "data": "", 
+            "fields": [
+                "Outline the structured approach to dealing with a paeds emergency?", 
+                "<img src=\"paste-4363686772933.jpg\" /><div><br /></div><div><div>The structured approach focuses initially on identifying and treating any immediate threats to life: that is a closed or obstructed airway, absent or distressed respiration, or pulselessness or shock. Clinical interventions to reverse these immediate threats comprise resuscitation.</div><div>After resuscitation is commenced the next step is to identify the key features that in any serious illness or injury give the clinician a signpost to the likeliest working diagnosis. From this, the best emergency treatment can be identified to start to treat the child’s illness or injury.</div><div>The final phase of the structured approach is to stabilise the child, focusing on achieving homeostasis and system control and leading onto transfer to a definitive care environment, which will often be the paediatric intensive care unit.</div></div>"
+            ], 
+            "flags": 0, 
+            "guid": "gTm*|lO[mS", 
+            "note_model_uuid": "e0b5aad1-3fb9-11e7-a6a2-0025bcdd42f8", 
+            "tags": [
+                "paeds"
+            ]
+        }, 
+        {
+            "__type__": "Note", 
+            "data": "", 
+            "fields": [
+                "in a paeds resuscitation scenario, how do you assess whether circulation is present / adequate? when do you start chest compressions?", 
+                "<div>Assessment</div><div>Failure of the circulation is recognised by the absence of signs of circulation (‘signs of life’), i.e. no normal breaths or cough in response to rescue breaths and no spontaneous movement. In addition, the absence of a central pulse for up to 10 seconds or the presence of a pulse at an insufficient rate may be detected.</div><div><br /></div><div>Even experienced health professionals can find it difficult to be certain that the pulse is absent within 10 seconds. Therefore, the absence of ‘signs of life’ is the primary indication to start chest compressions. Signs of life include: movement, coughing or normal breathing (not agonal gasps – these are irregular, infrequent breaths).</div><div><br /></div><div>In children the carotid artery in the neck or the femoral artery in the groin can be palpated. In infants the neck is generally short and fat and the carotid artery may be difficult to identify. Therefore the brachial artery in the medial aspect of the antecubital fossa (Figure 4.7), or the femoral artery in the groin can be felt.</div><div><br /></div><div>If the pulse is absent for up to 10 seconds or is inadequate (less than 60 beats per minute, with signs of poor perfusion) then cardiac compression is required. Signs of poor perfusion include pallor, lack of responsiveness and poor muscle tone.</div><div><br /></div><div>Start chest compressions if • There are no signs of life. • There is no pulse. • There is a slow pulse (less than 60 beats per minute with poor perfusion).</div>"
+            ], 
+            "flags": 0, 
+            "guid": "RfQ>{KZGn$", 
+            "note_model_uuid": "e0b5aad1-3fb9-11e7-a6a2-0025bcdd42f8", 
+            "tags": [
+                "paeds"
+            ]
+        }, 
+        {
+            "__type__": "Note", 
+            "data": "", 
+            "fields": [
+                "how do you manage a child choking on a FB?", 
+                "<img src=\"paste-8486855377400.jpg\" />"
+            ], 
+            "flags": 0, 
+            "guid": "kT@$OonZ]1", 
+            "note_model_uuid": "e0b5aad1-3fb9-11e7-a6a2-0025bcdd42f8", 
+            "tags": [
+                "paeds"
+            ]
+        }, 
+        {
+            "__type__": "Note", 
+            "data": "", 
+            "fields": [
+                "what necessary airway equipment do you need to consider in paeds?", 
+                "<div>Necessary airway equipment</div><div>• Face masks • Airways including laryngeal mask airways (LMAs) • Self-inflating bag–valve–mask devices • Tracheal tubes, introducers and connectors • Suction devices • Cricothyroidotomy cannulae</div><div><br /></div>"
+            ], 
+            "flags": 0, 
+            "guid": "QQ3axl4D_m", 
+            "note_model_uuid": "e0b5aad1-3fb9-11e7-a6a2-0025bcdd42f8", 
+            "tags": [
+                "paeds"
+            ]
+        }, 
+        {
+            "__type__": "Note", 
+            "data": "", 
+            "fields": [
+                "how do you size an oropharyngeal airway?", 
+                "The oropharyngeal airway is available in a variety of sizes. A correctly sized airway when placed with its flange at the centre of the incisors, then curved around the face, will reach the angle of the mandible&nbsp;<div><br /></div><div><img src=\"paste-15444702396933.jpg\" /></div>"
+            ], 
+            "flags": 0, 
+            "guid": "A6hjl|,/}>", 
+            "note_model_uuid": "e0b5aad1-3fb9-11e7-a6a2-0025bcdd42f8", 
+            "tags": [
+                "paeds"
+            ]
+        }, 
+        {
+            "__type__": "Note", 
+            "data": "", 
+            "fields": [
+                "how do you size an NPA? what sort of disadvantages to NPAs?", 
+                "A suitable length can be estimated by measuring from the lateral edge of the nostrils to the tragus of the ear. An appropriate diameter is one that just fits into the nostril without causing sustained blanching of the nostril.<div><br /></div><div>The nasopharyngeal airway is often better tolerated than the Guedel airway. It is contraindi- cated in fractures of the anterior base of the skull. It may also cause significant haemorrhage from the vascular nasal mucosa.</div>"
+            ], 
+            "flags": 0, 
+            "guid": "tQ@L$kW6i7", 
+            "note_model_uuid": "e0b5aad1-3fb9-11e7-a6a2-0025bcdd42f8", 
+            "tags": [
+                "paeds"
+            ]
+        }, 
+        {
+            "__type__": "Note", 
+            "data": "", 
+            "fields": [
+                "what sort of&nbsp;Necessary equipment for oxygenation and ventilation?", 
+                "<div><br /></div><div>• Oxygen source and masks for spontaneous breathing • Face masks (for artificial ventilator) • Self-inflating bags • T-piece and open-ended bag</div><div>• Mechanical ventilators • Chest tubes • Gastric tubes</div>"
+            ], 
+            "flags": 0, 
+            "guid": "he`i7h{X+n", 
+            "note_model_uuid": "e0b5aad1-3fb9-11e7-a6a2-0025bcdd42f8", 
+            "tags": [
+                "paeds"
+            ]
+        }, 
+        {
+            "__type__": "Note", 
+            "data": "", 
+            "fields": [
+                "how do you check tracheal tube placement?", 
+                "<div>Following the placement of the tracheal tube in the trachea its position must be verified by: • Observing bilateral and symmetrical movement of the chest. • Auscultation of the chest and abdomen. • Monitoring expired carbon dioxide in the exhaled air by either colour change capnometry</div><div>or end tidal capnography.</div><div><br /></div><div>The continued monitoring of expired carbon dioxide is a good indicator of effective ventila- tion in a perfusing patient, but it must be remembered that CO2 will not be detected in the absence of any circulation or where the lungs have not yet been inflated (at birth).</div>"
+            ], 
+            "flags": 0, 
+            "guid": "z]^xP$78DU", 
+            "note_model_uuid": "e0b5aad1-3fb9-11e7-a6a2-0025bcdd42f8", 
+            "tags": [
+                "paeds"
+            ]
+        }, 
+        {
+            "__type__": "Note", 
+            "data": "", 
+            "fields": [
+                "how much adrenaline by what route should be given for non-shockable rhythm? what does it do?", 
+                "If asystole or PEA is identified give adrenaline 10micrograms/kg intravenously or intraosseously. Adrenaline is the first-line drug for asystole. Through α-adrenergic-mediated vasoconstriction, its action is to increase aortic diastolic pressure during chest compressions and thus coronary perfusion pressure and the delivery of oxygenated blood to the heart. It also enhances the contractile state of the heart and stimulates spontaneous contractions. The intravenous or intraosseous (IO) dose is 10 micrograms/kg (0.1 ml/kg of 1:10,000 solution). Whenever venous access is not readily attainable, intraosseous access should be considered early. Central lines provide more secure long-term access, but compared to IO or peripheral IV access, offer no advantages. In each case the adrenaline is followed by a normal saline flush (2–5ml).<div><br /></div>"
+            ], 
+            "flags": 0, 
+            "guid": "B4&;,F(X>n", 
+            "note_model_uuid": "e0b5aad1-3fb9-11e7-a6a2-0025bcdd42f8", 
+            "tags": [
+                "paeds"
+            ]
+        }, 
+        {
+            "__type__": "Note", 
+            "data": "", 
+            "fields": [
+                "how do you treat&nbsp;hyperkalaemia, hypocalcaemia and calcium channel blocker overdose causing cardiac arrest? (also&nbsp;treatment of hypermagnesaemia)", 
+                "Intravenous calcium (0.3ml/ kg of 10% calcium gluconate) is indicated in hyperkalaemia, hypocalcaemia and calcium channel blocker overdose."
+            ], 
+            "flags": 0, 
+            "guid": "v>_bW~VtK?", 
+            "note_model_uuid": "e0b5aad1-3fb9-11e7-a6a2-0025bcdd42f8", 
+            "tags": [
+                "paeds"
+            ]
+        }, 
+        {
+            "__type__": "Note", 
+            "data": "", 
+            "fields": [
+                "what is the protocol for managing cardiac arrest in children?", 
+                "<img src=\"paste-18287970746908.jpg\" />"
+            ], 
+            "flags": 0, 
+            "guid": "nfLue`,vtA", 
+            "note_model_uuid": "e0b5aad1-3fb9-11e7-a6a2-0025bcdd42f8", 
+            "tags": [
+                "paeds"
+            ]
+        }, 
+        {
+            "__type__": "Note", 
+            "data": "", 
+            "fields": [
+                "what is the dose of amiodarone? how is it administered? when is it omitted / likely to not be useful?<div>what alternatives are available to it and what dose?</div>", 
+                "The dose of amiodarone for VF/pulseless VT is 5mg/kg in 5% glucose over 3 minutes. This can be repeated&nbsp;<div>There may be circumstances where the routine use of amiodarone should be omitted. This includes VF/pulseless VT caused by an overdose of an arrhythmogenic drug. Expert advice should be obtained from a poisons centre. Amiodarone is likely to be unhelpful in the setting of VF caused by hypothermia but may be used, nevertheless.</div><div><br /></div><div>Lidocaine (lignocaine) is an alternative to amiodarone if the latter is unavailable. The dose is 1mg/kg IV or IO. It is the DC shock that converts the heart back to a perfusing rhythm, not the drug. The purpose of the antiarrhythmic drug is to stabilise the converted rhythm and the purpose of adrenaline is to improve myocardial oxygenation by increasing coronary perfusion pressure. Adrenaline also increases the vigour and intensity of ventricular fibrillation, which increases the success of defibrillation.</div>"
+            ], 
+            "flags": 0, 
+            "guid": "r7u)%[m>+{", 
+            "note_model_uuid": "e0b5aad1-3fb9-11e7-a6a2-0025bcdd42f8", 
+            "tags": [
+                "paeds"
+            ]
+        }, 
+        {
+            "__type__": "Note", 
+            "data": "", 
+            "fields": [
+                "when do you give magnesium in cardiac arrest? what dose?", 
+                "Magnesium 25–50 mg/kg (maximum of 2 g) is indicated in children with hypomagnesaemia or with polymorphic VT (torsades de pointes), regardless of cause."
+            ], 
+            "flags": 0, 
+            "guid": "mmqnJ4DD9}", 
+            "note_model_uuid": "e0b5aad1-3fb9-11e7-a6a2-0025bcdd42f8", 
+            "tags": [
+                "paeds"
+            ]
+        }, 
+        {
+            "__type__": "Note", 
+            "data": "", 
+            "fields": [
+                "what should one do if in cardiac resus the rhythm converts then reverts back to VF or pVT?", 
+                "If the rhythm initially converts and then deteriorates back to VF or pulseless VT then the sequence should continue to cycle omitting a further dose of amiodarone if two have already been given. If further amiodarone is thought necessary an infusion should be given of 300micrograms/kg/h to a maximum of 1.5 mg/kg/h to a maximum of 1.2g in 24 hours."
+            ], 
+            "flags": 0, 
+            "guid": "FN(grjGx?o", 
+            "note_model_uuid": "e0b5aad1-3fb9-11e7-a6a2-0025bcdd42f8", 
+            "tags": [
+                "paeds"
+            ]
+        }, 
+        {
+            "__type__": "Note", 
+            "data": "", 
+            "fields": [
+                "how do you use AEDs with children?", 
+                "<div>Many AEDs can detect VF/VT in children of all ages and differentiate ‘shockable’ from ‘non-shockable’ rhythms with a high degree of sensitivity and specificity. Thus, if an AED is the only defibrillator avail- able its use should be considered (preferably with the paediatric pads) as described earlier.</div><div>These devices have paediatric attenuation pads that decrease the energy to a level more appropriate for the child (1–8 years) or leads reducing the total energy to 50–80 joules. For the infant of less than 1 year, a manual defibrillator that can be adjusted to give the correct shock is recommended. However, if an AED is the only defibrillator available, its use should be con- sidered, preferably with paediatric attenuation pads. The order of decreasing preference for defibrillation in the under 1-year-olds is as follows:</div><div>1 Manual defibrillator. 2 AED with dose attenuator. 3 AED without dose attenuator.</div>"
+            ], 
+            "flags": 0, 
+            "guid": "u}Q:OM1?]^", 
+            "note_model_uuid": "e0b5aad1-3fb9-11e7-a6a2-0025bcdd42f8", 
+            "tags": [
+                "paeds"
+            ]
+        }, 
+        {
+            "__type__": "Note", 
+            "data": "", 
+            "fields": [
+                "When may there be absent or decreased evidence of increased effort of breathing?", 
+                "<div>Exceptions</div><div>There may be absent or decreased evidence of increased effort of breathing in three circumstances:&nbsp;</div><div><br /></div><div>1 In the infant or child who has had severe respiratory problems for some time, fatigue&nbsp;may occur and the signs of increased effort of breathing will decrease. Exhaustion is a pre-&nbsp;terminal sign.&nbsp;</div><div><br /></div><div>2 Children with cerebral depression from raised intracranial pressure, poisoning or&nbsp;encephalopathy will have respiratory inadequacy without increased effort of breathing. The&nbsp;respiratory inadequacy in this case is caused by decreased respiratory drive.&nbsp;</div><div><br /></div><div>3 Children who have neuromuscular disease (such as spinal muscular atrophy or muscular&nbsp;dystrophy) may present in respiratory failure without increased effort of breathing.</div><div>The diagnosis of respiratory failure in such children is made by observing the efficacy of breathing, and looking for other signs of respiratory inadequacy. These are discussed in the text.</div>"
+            ], 
+            "flags": 0, 
+            "guid": "hrhDEYp[,H", 
+            "note_model_uuid": "e0b5aad1-3fb9-11e7-a6a2-0025bcdd42f8", 
+            "tags": [
+                "paeds"
+            ]
+        }, 
+        {
+            "__type__": "Note", 
+            "data": "", 
+            "fields": [
+                "what signs might you use for the&nbsp;Recognition of potential circulatory failure?", 
+                "HR<div>CR</div><div><div>Pulse volume</div><div>Although blood pressure is maintained until shock is severe, an indication of perfusion can be gained by comparative palpation of both peripheral and central pulses. Absent peripheral pulses and weak central pulses are serious signs of advanced shock, and indicate that hypotension is already present. Bounding pulses may be caused by an increased cardiac output (e.g. septicae- mia), arteriovenous systemic shunt (e.g. patent arterial duct) or hypercapnia.</div></div><div><br /></div><div>BP</div><div><br /></div><div><br /></div>"
+            ], 
+            "flags": 0, 
+            "guid": "Ea9&^J_;sU", 
+            "note_model_uuid": "e0b5aad1-3fb9-11e7-a6a2-0025bcdd42f8", 
+            "tags": [
+                "paeds"
+            ]
+        }, 
+        {
+            "__type__": "Note", 
+            "data": "", 
+            "fields": [
+                "what&nbsp;&nbsp;features suggest a cardiac cause of respiratory inadequacy?", 
+                "<div>Cardiac failure</div><div>The following features suggest a cardiac cause of respiratory inadequacy: • Cyanosis, not correcting with oxygen therapy. • Tachycardia out of proportion to respiratory difficulty. • Raised jugular venous pressure.</div><div>• Gallop rhythm/murmur. • Enlarged liver. • Absent femoral pulses.</div>"
+            ], 
+            "flags": 0, 
+            "guid": "jO$i-q#*?O", 
+            "note_model_uuid": "e0b5aad1-3fb9-11e7-a6a2-0025bcdd42f8", 
+            "tags": [
+                "paeds"
+            ]
+        }, 
+        {
+            "__type__": "Note", 
+            "data": "", 
+            "fields": [
+                "how do you assess response to pain in a child?", 
+                "If the child does not respond to voice, it is important that assessment follows of the response to pain. The painful central stimulus can be delivered by sternal pressure, by supraorbital ridge pressure or by pulling frontal hair."
+            ], 
+            "flags": 0, 
+            "guid": "KtL`!b^?cu", 
+            "note_model_uuid": "e0b5aad1-3fb9-11e7-a6a2-0025bcdd42f8", 
+            "tags": [
+                "marked", 
+                "paeds"
+            ]
+        }, 
+        {
+            "__type__": "Note", 
+            "data": "", 
+            "fields": [
+                "Describe&nbsp;the rapid clinical assessment of an infant or child", 
+                "<div>Summary: the rapid clinical assessment of an infant or child</div><div><br /></div><div><img src=\"paste-19585050870152.jpg\" /></div><div><br /></div><div>Airway and Breathing • Effort of breathing • Respiratory rate/rhythm • Stridor/wheeze • Auscultation • Skin colour Circulation • Heart rate • Pulse volume • Capillary refill • Skin temperature Disability • Mental status/conscious level • Posture • Pupils Exposure • Fever • Rash and bruising The whole assessment should take less than a minute</div>"
+            ], 
+            "flags": 0, 
+            "guid": "i=;|y**B$O", 
+            "note_model_uuid": "e0b5aad1-3fb9-11e7-a6a2-0025bcdd42f8", 
+            "tags": [
+                "paeds"
+            ]
+        }, 
+        {
+            "__type__": "Note", 
+            "data": "", 
+            "fields": [
+                "what are the causes and clinical presentations of upper airway obstruction / stridor?", 
+                "<img src=\"paste-20336670146860.jpg\" />"
+            ], 
+            "flags": 0, 
+            "guid": "B/h+j>Y.uA", 
+            "note_model_uuid": "e0b5aad1-3fb9-11e7-a6a2-0025bcdd42f8", 
+            "tags": [
+                "paeds"
+            ]
+        }, 
+        {
+            "__type__": "Note", 
+            "data": "", 
+            "fields": [
+                "what sort of noises give you clues as to the etiology of a stridor?", 
+                "<div>• If ‘bubbly’ noises are heard, the airway is full of secretions requiring clearance. This also suggests that the child is either very fatigued, or has a depressed conscious level and cannot clear the secretions him- or herself by coughing.</div><div>• If stertorous (snoring) respiratory noises are heard, consider partial obstruction of the airway due to a depressed conscious level.</div><div>• If there is a harsh stridor associated with a barking cough, upper airway obstruction due to croup should be suspected.</div><div>• If a quiet stridor in a sick-looking child is present, consider epiglottitis. • With a very sudden onset, no prodromal symptoms and a history suggestive of inhalation,</div>"
+            ], 
+            "flags": 0, 
+            "guid": "v1k$PDa^bE", 
+            "note_model_uuid": "e0b5aad1-3fb9-11e7-a6a2-0025bcdd42f8", 
+            "tags": [
+                "paeds"
+            ]
+        }, 
+        {
+            "__type__": "Note", 
+            "data": "", 
+            "fields": [
+                "how do you manage an emergency presentation of croup?", 
+                "<img src=\"paste-20736102105632.jpg\" /><div><img src=\"paste-20757576941741.jpg\" /></div><div><br /></div><div><div>Croup syndromes</div><div>• Give nebulised adrenaline (400micrograms/kg 0.4ml/kg of 1:1000) with oxygen through a face mask to patients with severe respiratory distress in association with harsh stridor and a barking cough. This will produce a transient improvement beginning within minutes and lasting for up to 2 hours. It may need to be repeated, and if so, additional measures should be taken to ensure the airway is managed by senior staff.</div><div>• Children who require adrenaline for the emergency treatment of croup should also receive nebulised or oral steroids, such as oral dexamethasone 150micrograms/kg (see below).</div><div>• Adrenaline reduces the clinical severity of obstruction, but does not improve arterial blood gases, reduce the duration of hospitalisation or eliminate the need for intubation. Children who have received adrenaline will appear improved for a short while only and need to be observed very closely with continuous ECG and oxygen saturation monitoring. They may later require tracheal intubation. A marked tachycardia is usually produced by the adrenaline, but other side effects are uncommon. This treatment is best used to ‘buy time’ in which to assemble an experienced team to treat a child with severe croup.</div><div>• Give humidified oxygen through a face mask, and monitor the oxygen saturation. Many children admitted to hospital with croup have hypoxia as a result of alveolar hypoventilation secondary to airways obstruction and ventilation perfusion imbalance. Whilst the respiratory rate and the degree of sternal recession are valuable clinical indicators of severity and response to treatment, the degree of hypoxia is the best assessment. However, hypoventila- tion may be masked when the child is receiving high ambient oxygen. The oxygen saturation with the child breathing air should be checked intermittently.</div><div>• Inhalation of warm moist air is widely used but is of unproven benefit.</div></div><div><br /></div><div><br /></div>"
+            ], 
+            "flags": 0, 
+            "guid": "L/vl!;7EL+", 
+            "note_model_uuid": "e0b5aad1-3fb9-11e7-a6a2-0025bcdd42f8", 
+            "tags": [
+                "paeds"
+            ]
+        }, 
+        {
+            "__type__": "Note", 
+            "data": "", 
+            "fields": [
+                "what clinical features suggest a FB on a child that presents with resp distress? how do you manage it?", 
+                "<img src=\"paste-21414706938152.jpg\" /><div><img src=\"paste-21427591840082.jpg\" /></div><div><img src=\"paste-21496311316638.jpg\" /></div>"
+            ], 
+            "flags": 0, 
+            "guid": "NPeKI?h_90", 
+            "note_model_uuid": "e0b5aad1-3fb9-11e7-a6a2-0025bcdd42f8", 
+            "tags": [
+                "paeds"
+            ]
+        }
+    ]
+}
